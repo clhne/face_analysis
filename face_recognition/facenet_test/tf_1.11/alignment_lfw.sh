@@ -1,3 +1,4 @@
+#https://github.com/davidsandberg/facenet
 for N in {1..4}; do \
     python src/align/align_dataset_mtcnn.py \
     /home/lc/lcl/jlq_action/datasets/lfw/raw \
