@@ -1,1 +1,2 @@
 model/pyramidbox.ckpt.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+checkpoints/vgg_16_2016_08_28.tar.gz filter=lfs diff=lfs merge=lfs -text
