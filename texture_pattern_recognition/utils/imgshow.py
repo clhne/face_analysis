@@ -36,3 +36,4 @@ def show_in_one(images, show_size=(920, 1215), blank_size=5, window_name="merge"
         print("ingnore count %s" % (max_count - count))
     cv2.namedWindow(window_name)
     cv2.imshow(window_name, merge_img)
+    cv2.imwrite("result.jpg",merge_img)
